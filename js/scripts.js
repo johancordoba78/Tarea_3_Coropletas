@@ -150,7 +150,7 @@ function updateOpacityradia() {
 $.getJSON('https://johancordoba78.github.io/datos/AC_corr.geojson', function (geojson) {
   var capa_vacuna_ca = L.choropleth(geojson, {
 	  valueProperty: '%_Rec_Vacunas/poblacion',
-	  scale: ['yellow', 'brown'],
+	  scale: ['#90ee90', '#006400'],
 	  steps: 5,
 	  mode: 'q',
 	  style: {
