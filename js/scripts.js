@@ -129,7 +129,7 @@ var wms3 = L.tileLayer.wms('https://tiles.maps.eox.at/wms?', {
 control_capas.addOverlay(wms3, 'América Central de Noche');
 
 // capa_raster_overlay
-var radiasola = L.imageOverlay ("C:/Users/XPC/datos/radia_solar1_CUT.png",
+var radiasola = L.imageOverlay ("https://johancordoba78.github.io/datos/radia_solar1_CUT.png",
 	[[19.5284392320000002, -92.5375000001834707], 
 	[4.304894101000002, -76.9624999998165151]], 
 	{opacity:0.5}
