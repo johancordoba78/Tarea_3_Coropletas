@@ -99,7 +99,7 @@ $.getJSON("https://johancordoba78.github.io/datos/L_Tren.geojson" , function(geo
 });
 
 // Agregar capa WMS
-var capa_carencia_hogares = L.tileLayer.wms('http://mapassociales.inec.cr/geopc', {
+var capa_carencia_hogares = L.tileLayer.wms('	http://mapassociales.inec.cr/geopc?', {
   layers: 'Inec:total_de_hogares_con_carencia_de_albergue_digno__2017_01_12_12_01_19__Distritos_Mapas_Sociales__472_2017_01_11',
   format: 'image/png',
   transparent: true
